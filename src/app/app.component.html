@@ -1,0 +1,17 @@
+
+  <mat-toolbar color="primary">
+    <span>Tab and Routing </span>
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>  
+  </mat-toolbar>
+<div style="position: absolute;left: 0;width:17%;bottom: 0%; background: #e4e4e4;top: 30px;">
+  <a routerLink="/command-center-page-1">Command center page 1</a><br/>
+  <a routerLink="/command-center-page-2">Command center page 2</a><br/>
+  <a routerLink="/vista">vista</a><br/>
+  <a routerLink="/tcm">tcm</a><br/>
+</div>
+<div style="position: absolute;left: 17%;right:0; bottom: 0;top: 30px;">
+  <app-router-tabs></app-router-tabs>
+  <router-outlet></router-outlet>
+</div>
+
